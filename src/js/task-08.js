@@ -7,7 +7,7 @@ const form = document.querySelector('.login-form');
     const password = form.elements.password;
 
     if (email.value === '' || password.value === '') {
-      alert('Всі поля повинні бути заповнені!');
+      alert('Усі поля повинні бути заповнені!');
       return;
     }
 
