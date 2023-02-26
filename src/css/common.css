@@ -19,6 +19,18 @@ input {
 }
 
 button {
-  padding: 8px 12px;
+  padding: 10px 10px;
   cursor: pointer;
 }
+
+/*--Task 3--*/
+ul.gallery {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul.gallery.li {
+  margin: 50px;
+}
+
